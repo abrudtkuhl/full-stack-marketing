@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>AnalyticsDemo.xyz</title>
+        <title>Full Stack Marketing - @abrudtkuhl</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <style>
             * { border-radius: 0 !important; }
@@ -44,9 +44,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <h1>AnalyticsDemo.xyz</h1>
-                    <p class="lead">This is a thing to demo Google Analytics things. To test, you need <a href="http://analytics.google.com" target="_blank">Google Analytics</a> and <a href="https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna" target="_blank">Google Analytics Debugger.</a></p>
-                    <p class="alert alert-info"><strong>Note:</strong> Demo uses the new <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/" target="_blank"><code>gtag.js</code></a> analytics implementation with references to the old(er) <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank"><code>analytics.js</code></a> implementation. All new GA properties will use <code>gtag.js</code> while many installs out there use <code>ga.js</code></p>
+                    <h1>Full Stack Marketing</h1>
+                    <h3>Analytics For Developers</h3>
+                    <p class="lead">Learn how to track, measure, test, and report on how users interact with your web site or app with an analytics stack. Using free tools like Google Analytics, Google Optimize, and Google Data Studio, he'll show you how to track events on client and server side, a/b test features, and build fancy reports.</p>
+                    <div class="alert alert-info">
+                        <h4>Tips</h4>
+                        <p>&#U+1F64A; To play around, you need <a href="https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna" target="_blank">Google Analytics Debugger.</a></p>
+                        <p>To clone this website and sandbox your own tracking, fork it on Github, and update the .env file with your GTM/GA Tracking ID</p>
+                    </div>
+                    <p><strong>Note:</strong> Demo uses the new <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/" target="_blank"><code>gtag.js</code></a> analytics implementation with references to the old(er) <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank"><code>analytics.js</code></a> implementation. All new GA properties will use <code>gtag.js</code> while many installs out there use <code>ga.js</code></p>
 
                     <section class="example">
                         <h2>Event Tracking</h2>
@@ -112,5 +118,6 @@
                 });
             };
         </script>
+        <script src="//load.sumome.com/" data-sumo-site-id="f08bc8d0a0820a8c61b0e9a2ebd93bac027f5768848f431dfeff02f70a73dee8" async="async"></script>
     </body>
 </html>
