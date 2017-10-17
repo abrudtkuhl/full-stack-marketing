@@ -49,8 +49,8 @@
                     <p class="lead">Learn how to track, measure, test, and report on how users interact with your web site or app with an analytics stack. Using free tools like Google Analytics, Google Optimize, and Google Data Studio, he'll show you how to track events on client and server side, a/b test features, and build fancy reports.</p>
                     <div class="alert alert-info">
                         <h4>Tips</h4>
-                        <p>&#U+1F64A; To play around, you need <a href="https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna" target="_blank">Google Analytics Debugger.</a></p>
-                        <p>To clone this website and sandbox your own tracking, fork it on Github, and update the .env file with your GTM/GA Tracking ID</p>
+                        <p>&#128586; To play around, you need <a href="https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna" target="_blank">Google Analytics Debugger.</a></p>
+                        <p>	&#128073; Want to have your own sandbox? <a href="https://github.com/abrudtkuhl/full-stack-marketing" target="_blank">Clone this site on Github</a> and update the .env file</p>
                     </div>
                     <p><strong>Note:</strong> Demo uses the new <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/" target="_blank"><code>gtag.js</code></a> analytics implementation with references to the old(er) <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank"><code>analytics.js</code></a> implementation. All new GA properties will use <code>gtag.js</code> while many installs out there use <code>ga.js</code></p>
 
