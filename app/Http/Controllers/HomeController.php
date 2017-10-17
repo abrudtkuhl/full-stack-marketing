@@ -9,8 +9,8 @@ class HomeController extends Controller
 {
     function welcome() {
         $client = new Client();
-        $result = $client->post('www.google-analytics.com/collect/?v=1&t=event&tid='.env('GTM_ID').'&cid=2a9c887b-d682-482f-9ede-c87b995aa2c3&event_label=analyticsdemo.xyz&event_category=homepage&event_action=Page View' );       
-        dd($result);
+        $result = $client->post('www.google-analytics.com/collect/?v=1&t=event&tid='.env('GTM_ID').'&cid='.env('GTM_CID').'&event_label=analyticsdemo.xyz&event_category=homepage&event_action=Page View');
+        
         return view('welcome');
     }
 }
