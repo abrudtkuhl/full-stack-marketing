@@ -45,8 +45,8 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <h1>AnalyticsDemo.xyz</h1>
-                    <p class="lead">This is a thing to demo Google Analytics things.</p>
-                    <p class="alert alert-info"><strong>Note:</strong> Requires Google Analytics property and tracking info. Demo uses the new <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/" target="_blank"><code>gtag.js</code></a> analytics implementation with references to the old(er) <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank"><code>analytics.js</code></a> implementation. All new GA properties will use <code>gtag.js</code> while many installs out there use <code>ga.js</code></p>
+                    <p class="lead">This is a thing to demo Google Analytics things. To test, you need <a href="http://analytics.google.com" target="_blank">Google Analytics</a> and <a href="https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna" target="_blank">Google Analytics Debugger.</a></p>
+                    <p class="alert alert-info"><strong>Note:</strong> Demo uses the new <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/" target="_blank"><code>gtag.js</code></a> analytics implementation with references to the old(er) <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank"><code>analytics.js</code></a> implementation. All new GA properties will use <code>gtag.js</code> while many installs out there use <code>ga.js</code></p>
 
                     <section class="example">
                         <h2>Event Tracking</h2>
