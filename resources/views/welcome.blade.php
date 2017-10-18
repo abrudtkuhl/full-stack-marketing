@@ -167,6 +167,11 @@
                         <h3>Google Tag Manager</h3>
                         <ul>
                             <li><a href="https://www.simoahava.com/" target="_blank">everything from Simo Ahava</a></li>
+                        </ul>
+                        <h3>Google Optimize</h3>
+                        <ul>
+                            <li><a href="https://chrome.google.com/webstore/detail/google-optimizer-extensio/bhdplaindhdkiflmbfbciehdccfhegci" target="_blank">Google Optimize Chrome Extenstion</a></li>
+                        </ul>
                     </section>
                 </div>
             </div>
