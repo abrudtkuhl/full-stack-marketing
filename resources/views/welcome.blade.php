@@ -72,6 +72,7 @@
                     <div class="alert alert-info">
                         <h4>Tips</h4>
                         <p>&#128586;  To play around, you need <a href="https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna" target="_blank">Google Analytics Debugger.</a></p>
+                        <p>&#128073;  <a href="https://docs.google.com/presentation/d/1VZyy8WzmFNhDwK8eVhHRWiPUFz0ZpvjFWajaR-QmaQM/edit?usp=sharing" target="_blank">Download Full Stack Marketing Slides</a></p>
                         <p>&#128073;  Want to have your own sandbox? <a href="https://github.com/abrudtkuhl/full-stack-marketing" target="_blank">Clone this site on Github</a> and update the .env file</p>
                         <br />
                         <a class="github-button" href="https://github.com/abrudtkuhl/full-stack-marketing/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch abrudtkuhl/full-stack-marketing on GitHub">Watch</a>
