@@ -130,25 +130,12 @@
 
                     <hr />
 
-                    <section class="example">
-                        <h2>Global Event Tracking</h2>
-                        <figure class="highlight">
-                            <pre>
-<code>ga('send', 'event', 'Search', 'submit', 'Homepage Search');</code>
-                            </pre>
-                        </figure>
-
-                        <a href="#">Try Me</a>
-                    </section>
-
-                    <hr />
-
                     <section class="content">
                         <h2>Resources</h2>
                         <h3>Dev Libraries / APIs</h3>
                         <ul>
                             <li><a href="https://developers.google.com/analytics/devguides/collection/gtagjs/" target="_blank">gtag.js</a></li>
-                            <li><a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank">anaglytics.js</a> <em>(legacy, aka ga.js)</em></li>
+                            <li><a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank">analytics.js</a> <em>(legacy, aka ga.js)</em></li>
                             <li><a href="https://developers.google.com/analytics/devguides/collection/protocol/v1/" target="_blank">Google Analytics Measurement Protocol</a></li>
                         </ul>
                         <h3>Analytics Stack</h3>
@@ -172,7 +159,9 @@
                         <h3>Server Side</h3>
                         <ul>
                             <li><a href="https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide" target="_blank">Measurement Protocol Code Samples</a></li>
-                            <li><a href="https://www.lunametrics.com/blog/2013/06/04/tracking-pdfs-google-analytics-server-side/">Tracking PDFs With Google Analytics Server Side</a></li>
+                            <li><a href="https://developers.google.com/analytics/devguides/collection/protocol/v1/validating-hits" target="_blank">Validating Hits With Measurement Protocol</a></li>
+                            <li><a href="https://ga-dev-tools.appspot.com/hit-builder/" target="_blank">Hit Builder - Construct and Validate Measurement Protocol Hits</a></li>
+                            <li><a href="https://www.lunametrics.com/blog/2013/06/04/tracking-pdfs-google-analytics-server-side/">Tutorial: Tracking PDFs With Google Analytics Server Side</a></li>
                         </ul>
                         <h3>Google Tag Manager</h3>
                         <ul>
