@@ -167,6 +167,7 @@
                         <h3>Google Tag Manager</h3>
                         <ul>
                             <li><a href="https://www.simoahava.com/" target="_blank">everything from Simo Ahava</a></li>
+                            <li><a href="https://www.optimizesmart.com/google-tag-manager-data-layer-explained-like-never/" target="_blank">Google Tag Manager Data Layer Explained</a></li>
                         </ul>
                         <h3>Google Optimize</h3>
                         <ul>
