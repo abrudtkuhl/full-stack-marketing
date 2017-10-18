@@ -28,8 +28,6 @@
         },
         methods: {
             search() {
-                this.$http.post('www.google-analytics.com/collect/?v=1&t=event&tid=' + this.gtm_id + '&cid='+ this.gtm_cid +'&event_label=Search Module&event_category=Search&event_action=Submit');
-                
                 axios.get('/api/search/', {
                     params: {
                         query: this.search.name,
@@ -37,6 +35,7 @@
                     }
                 }).then(response => {
                     this.category_results = response.data;
+                    this.$http.post('www.google-analytics.com/collect/?v=1&t=event&tid=' + this.gtm_id + '&cid='+ this.gtm_cid +'&event_label=Search Module&event_category=Search&event_action=Submit');
                 });
             }
         }
